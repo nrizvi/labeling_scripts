@@ -29,7 +29,7 @@ def display_sentences_and_get_input(data):
 
 if __name__ == "__main__":
     # Load the Excel file
-    file_path = '/Users/naba/PycharmProjects/ableistdetection/third_round/sentence_pairs_all.xlsx'
+    file_path = 'sentence_pairs_all.xlsx'
     data = pd.read_excel(file_path)
     initials = get_user_initials()
 
