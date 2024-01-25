@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     # Run the function with the loaded data
     # Run the function with the loaded data
-    responses = display_sentences_and_get_input(data.head(4))
+    responses = display_sentences_and_get_input(data)
 
     # Save responses to a new Excel file
     responses_df = pd.DataFrame(responses)
